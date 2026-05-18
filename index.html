@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OFFICAL HOLLIN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="LOST.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-overlay"></div>
+  <main class="site-shell">
+    <section class="hero section section--hero" id="hero">
+      <div class="hero__content fade-in">
+        <span class="eyebrow">No mercy. No forgiveness.</span>
+        <h1>OFFICAL HOLLIN</h1>
+        <p class="hero__subtitle">NYC / Venezuelan artist</p>
+        <p class="hero__tagline">Dark sounds from late nights and heavy thoughts</p>
+        <div class="hero__meta">
+          <div class="hero__pill">Night rituals • permanent twilight</div>
+          <a class="hero__scroll" href="#latest-track" aria-label="Scroll to latest track">
+            <span></span>
+            <small>Scroll</small>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--card section--track" id="latest-track">
+      <div class="section__content fade-in">
+        <div class="section__header">
+          <span class="section__eyebrow">Latest Track</span>
+          <h2>LOST — Coming May 25</h2>
+        </div>
+        <p class="section__description">
+          A slow descent into everything I tried not to feel. Nothing here was made to be understood easily.
+        </p>
+        <div class="audio-player">
+          <audio class="audio-player__native" id="playerAudio" preload="metadata">
+            <source src="LOST-mp3cut.net-eq-b0-m0-t0.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+          <div class="audio-player__panel">
+            <button class="audio-player__button" type="button" aria-label="Play preview">
+              <span class="audio-player__icon audio-player__icon--play"></span>
+            </button>
+            <div class="audio-player__copy">
+              <span class="audio-player__track-title">LOST</span>
+              <span class="audio-player__track-subtitle">HOLLIN • 0:20</span>
+            </div>
+          </div>
+          <div class="audio-player__bar" aria-hidden="true">
+            <div class="audio-player__progress"></div>
+          </div>
+          <div class="audio-player__info">
+            <span id="playerTime">0:00</span>
+            <span id="playerDuration">0:20</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--card section--review fade-in" id="review">
+      <div class="section__content">
+        <div class="section__header">
+          <span class="section__eyebrow">Review</span>
+          <h2>“A haunting slow-burn that feels like midnight confession in a crowded room.”</h2>
+        </div>
+        <p class="section__description section__description--review">
+          The latest preview from OFFICAL HOLLIN lands with raw atmosphere and emotional gravity — every note feels lived in, intense, and impossible to ignore.
+        </p>
+        <p class="review__byline">— ZEISTER</p>
+      </div>
+    </section>
+
+    <section class="section section--cult" id="cult">
+      <div class="section__content fade-in">
+        <span class="section__eyebrow">Night confessions</span>
+        <h2>You know I went through a lot in my life.</h2>
+        <p class="section__description section__description--cult">
+          I’m trying to find myself after heartbreak after heartbreak. Every song is the sound of the pieces I’m still putting back together.
+        </p>
+        <div class="cult__grid">
+          <div class="cult__card">
+            <h3>“There are wounds no time will ever heal.”</h3>
+            <p>“I keep searching for answers in the spaces silence left behind.”</p>
+          </div>
+          <div class="cult__card">
+            <h3>“Everything else felt empty after the last goodbye.”</h3>
+            <p>“I write because it’s the only place I can say what I’m still too afraid to speak.”</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--about" id="about">
+      <div class="section__content fade-in">
+        <div class="about__statement">
+          <p class="about__line about__line--bold">NO WAY OUT OF THIS SH*T<br />Every exit led me deeper into myself.</p>
+          <p class="about__line">Static in my head.<br />Blood in my lungs.<br />Silence louder than voices.</p>
+        </div>
+        <p class="about__caption">Music made from isolation, pressure, and everything I couldn’t say out loud.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer fade-in">
+    <div>
+      <p class="footer__title">OFFICAL HOLLIN</p>
+      <div class="footer__links">
+        <a href="https://instagram.com/officialhollin" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://x.com/o_hollin" target="_blank" rel="noopener noreferrer">X</a>
+        <a href="https://soundcloud.com/offical-hollin" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+        <a href="https://www.youtube.com/@OfficalHollin" target="_blank" rel="noopener noreferrer">YouTube</a>
+      </div>
+    </div>
+    <p class="footer__legal">© 2026 OFFICAL HOLLIN. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
